@@ -8,5 +8,5 @@
     - Extract all (if downloaded)
     - Run the project (if Cookies message display please accept it)
 
-3. If incase there is an exception while running please close application and run it again 
+3. If incase there is an Error Message displays on screen after running the app. Please close application and run it again 
    (Energy Australia Api connection could be broken)
