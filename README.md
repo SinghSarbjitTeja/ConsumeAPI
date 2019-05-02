@@ -6,4 +6,4 @@
 2. Steps to run this application:
     - Download project Zip or clone from "https://github.com/SinghSarbjitTeja/ConsumeAPI"
     - Extract all (if downloaded)
-    - Run the project (if Cookies message display just accept it)
+    - Run the project (if Cookies message display please accept it)
