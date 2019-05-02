@@ -40,7 +40,7 @@ namespace EnergyAustralia.Controllers
             }
             catch (Exception e)
             {
-                throw new Exception(e.Message); 
+               return StatusCode(300, "Connection is broken, please close and open app again!"); 
             }
 
             var res = carShowsList.OrderBy(c => c.Make).GroupBy(x => x.Make).ToList();
