@@ -1,0 +1,23 @@
+﻿@model IEnumerable<System.Linq.IGrouping<string, CarViewModel>>
+
+@{
+    ViewData["Title"] = "Car Show";
+}
+<h5 class="text-danger">Note: Please refresh if no data is displayed. Make sure you are connected to internet</h5>
+<div>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@Html.DisplayFor(m => item.Key)</li>
+            <ul>
+                @foreach (var m in item)
+                {
+                    <li>@Html.DisplayFor(t => m.Model)</li>
+                    <ul>
+                        <li>@Html.DisplayFor(t => m.Name)</li>
+                    </ul>
+                }
+            </ul>
+        }
+    </ul>
+</div>
